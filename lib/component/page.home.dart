@@ -5,7 +5,7 @@ import '../services/person.services.dart';
 import 'card.person.dart';
 
 class MainPage extends StatefulWidget {
-  const MainPage({Key? key}) : super(key: key);
+  const MainPage({super.key});
 
   @override
   State<MainPage> createState() => _MainPageState();
